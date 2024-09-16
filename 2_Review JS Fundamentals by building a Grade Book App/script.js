@@ -1,13 +1,13 @@
 function getAverage(scores) {
     let sum = 0;
     //for (const score of scores) //better approach
-    for(let i=0; i<scores.length; i++) {
-      sum = sum + scores[i];
+    for(let i=0; i<scores.length; i++) { //kind stuck !!
+      sum = sum + scores[i]; 
     }
     return sum/scores.length;
 }
 
-function getGrade(score) {
+function getGrade(score) { //i got this !!
     if(score === 100) {
       return "A++";
     } else if (score <= 99 && score >= 90) {
@@ -25,6 +25,19 @@ function getGrade(score) {
 console.log(getGrade(96));
 console.log(getGrade(82));
 console.log(getGrade(56));
+
+function studentMsg(totalScores, studentScore) {
+    let classAverage = getAverage(totalScores);//stuck here !!
+    let studentGrade = getGrade(studentScore);//stuck here !!
+  
+    if(studentGrade !== "F") { //i got this
+        return "Class average: " + classAverage + ". Your grade: " + studentGrade + ". You passed the course.";
+    } else {
+        return "Class average: " + classAverage + ". Your grade: " + studentGrade + ". You failed the course.";
+    }
+}
+
+console.log(studentMsg([92, 88, 12, 77, 57, 100, 67, 38, 97, 89], 37));
 
 function hasPassingGrade(score) { //stuck at this point
     let grade = getGrade(score);
