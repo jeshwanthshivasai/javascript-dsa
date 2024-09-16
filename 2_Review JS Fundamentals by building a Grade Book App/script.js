@@ -22,10 +22,17 @@ function getGrade(score) {
       return "F";
     }
 }
-
 console.log(getGrade(96));
 console.log(getGrade(82));
 console.log(getGrade(56));
+
+function hasPassingGrade(score) { //stuck at this point
+    let grade = getGrade(score);
+    return grade !== "F";
+}
+console.log(hasPassingGrade(100));
+console.log(hasPassingGrade(53));
+console.log(hasPassingGrade(87));
 
 console.log(getAverage([92, 88, 12, 77, 57, 100, 67, 38, 97, 89]));
 console.log(getAverage([45, 87, 98, 100, 86, 94, 67, 88, 94, 95]));
