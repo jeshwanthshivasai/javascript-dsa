@@ -103,7 +103,7 @@ function buyWeapon() {
         currentWeaponIndex ++;
         goldText.innerText = gold;
         let newWeapon = weapons[currentWeaponIndex].name;
-        text.innerText = "You now have a new weapon."
+        text.innerText = "You now have a " +  newWeapon + "." ;
     }
 }
 function fightSlime() {
