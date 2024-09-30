@@ -110,6 +110,14 @@ function goFight() {
 
 }
 
+function attack() {
+
+}
+
+function dodge() {
+  
+}
+
 function buyHealth() {
     if (gold >= 10) {
         gold -= 10;
