@@ -105,6 +105,10 @@ function fightDragon() {
     console.log("Fighting dragon.");
 }
 
+function goFight() {
+
+}
+
 function buyHealth() {
     if (gold >= 10) {
         gold -= 10;
