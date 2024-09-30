@@ -102,7 +102,8 @@ function goCave() {
 }
 
 function fightDragon() {
-    console.log("Fighting dragon.");
+    fighting = 2;
+    goFight();
 }
 
 function goFight() {
@@ -156,7 +157,8 @@ function fightSlime() {
     goFight();
 }
 function fightBeast() {
-  
+    fighting = 1;
+    goFight();
 }
 
 
