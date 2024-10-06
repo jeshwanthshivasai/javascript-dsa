@@ -18,5 +18,6 @@ const displayAuthors = (authors) => {
     authors.forEach(({author, image, url, bio}, index) => {
         const authorContainer = document.getElementById('author-container');
         authorContainer.innerHTML += ``;
+        <div id="${index}" class="user-card"></div>
     });
 }
