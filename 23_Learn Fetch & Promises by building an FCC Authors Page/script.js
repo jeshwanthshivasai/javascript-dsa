@@ -14,4 +14,6 @@ fetch('https://cdn.freecodecamp.org/curriculum/news-author-page/authors.json')
     console.error(`Error occured while fetching data: ${err}`);
 })
 
-const displayAuthors = (authors) => {}
+const displayAuthors = (authors) => {
+    authors.forEach();
+}
