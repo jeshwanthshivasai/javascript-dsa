@@ -20,7 +20,8 @@ const fetchMoreAuthors = () => {
     endingIndex += 8;
     displayAuthors(authorDataArr.slice(startingIndex, endingIndex));
     if(authorDataArr.length <= endingIndex) {
-  
+        loadMoreBtn.disabled=true;
+        loadMoreBtn.textContent="No more data to load";
     }
 }
 
