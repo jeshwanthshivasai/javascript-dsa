@@ -6,3 +6,6 @@ fetch('https://cdn.freecodecamp.org/curriculum/news-author-page/authors.json')
 .then((data) => {
     console.log(data);
 })
+.catch((err) => {
+    console.error(`Error occured while fetching data: ${err}`);
+})
