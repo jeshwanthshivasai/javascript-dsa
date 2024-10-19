@@ -216,6 +216,10 @@ function easterEgg() {
     update(locations[7]);
 }
 
+function pick(guess) {
+
+}
+
 function buyHealth() {
     if (gold >= 10) {
         gold -= 10;
