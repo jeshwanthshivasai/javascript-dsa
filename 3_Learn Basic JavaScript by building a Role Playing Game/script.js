@@ -154,7 +154,7 @@ function defeatMonster() {
 }
 
 function lose() {
-  
+    update(locations[5]);
 }
 
 function buyHealth() {
