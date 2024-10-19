@@ -165,6 +165,9 @@ function attack() {
         text.innerText  += " Your " + inventory.pop() + " breaks.";
         currentWeaponIndex--;
     }
+    if (Math.random() <= .1 && inventory.length !== 1) {
+        
+    }
 }
 
 function getMonsterAttackValue (level) {
