@@ -232,6 +232,9 @@ function pickEight() {
 
 function pick(guess) {
     const numbers = [];
+    while(numbers.length < 10) {
+
+    }
 }
 
 function buyHealth() {
