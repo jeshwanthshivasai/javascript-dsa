@@ -138,6 +138,14 @@ function dodge() {
   
 }
 
+function defeatMonster() {
+
+}
+
+function lose() {
+  
+}
+
 function buyHealth() {
     if (gold >= 10) {
         gold -= 10;
