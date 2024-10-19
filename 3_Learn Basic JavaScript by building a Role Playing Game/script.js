@@ -142,6 +142,10 @@ function goFight() {
 function attack() {
     text.innerText = 'The ' + monsters[fighting].name + ' attacks.';
     text.innerText += " You attack it with your " + weapons[currentWeaponIndex].name + ".";
+    if (isMonsterHit()) {
+        monsterHealth -= weapons[currentWeaponIndex].power + Math.floor(Math.random() * xp) + 1;
+        healthText.innerText = health;
+    }
     health -= getMonsterAttackValue(monsters[fighting].level);
     weapons -= weapons[currentWeaponIndex].power + Math.floor(Math.random() * xp) + 1;
     healthText.innerText = health;
