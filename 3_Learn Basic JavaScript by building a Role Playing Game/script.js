@@ -212,6 +212,10 @@ function restart() {
     goTown(); 
 }
 
+function easterEgg() {
+    update(locations[7]);
+}
+
 function buyHealth() {
     if (gold >= 10) {
         gold -= 10;
