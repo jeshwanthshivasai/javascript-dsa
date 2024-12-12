@@ -29,3 +29,7 @@ function addEntry() {
   targetInputContainer.insertAdjacentHTML('beforeend', HTMLString);
 }
 addEntryButton.addEventListener('click', addEntry);
+
+function getCaloriesFromInputs(list) {
+  
+}
