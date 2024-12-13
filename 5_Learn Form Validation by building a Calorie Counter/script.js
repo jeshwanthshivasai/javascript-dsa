@@ -80,3 +80,7 @@ function getCaloriesFromInputs(list) {
   }
   return calories;
 }
+
+function clearForm() {
+  
+}
