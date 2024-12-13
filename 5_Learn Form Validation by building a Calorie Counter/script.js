@@ -31,7 +31,8 @@ function addEntry() {
 addEntryButton.addEventListener('click', addEntry);
 
 function calculateCalories(e) {
-
+  e.preventDefault();
+  isError = false;
 }
 
 function getCaloriesFromInputs(list) {
