@@ -33,6 +33,7 @@ addEntryButton.addEventListener('click', addEntry);
 function calculateCalories(e) {
   e.preventDefault();
   isError = false;
+  let budgetNumberInputs = document.querySelectorAll(`#breakfast input[type='number']`);
 }
 
 function getCaloriesFromInputs(list) {
