@@ -110,7 +110,11 @@ const renderSongs = (array) => {
     //The map() method then returns a new array with the results.
     const songsHTML = array.map((song) => {
         return `
-        <li id="song-${song.id}" class="playlist-song"></li>
+        <li id="song-${song.id}" class="playlist-song">
+        <button class="playlist-song-info">
+        <span class="playlist-song-title">${song.title}</span>
+        </button>
+        </li>
         `;
     });
 };
