@@ -87,4 +87,13 @@ const allSongs = [
 const audio = new Audio();
 
 //To keep track of the songs, the current song playing, and the time of the current song.
-let userData = {};
+let userData = {
+    songs: [...allSongs],
+};
+
+// Since users will be able to shuffle and delete songs from the playlist.
+// You will need to create a copy of the allSongs array without mutating the original.
+// This is where the spread operator (...) comes in handy.
+// It allows you to copy all elements from one array into another.
+// It can also be used to concatenate multiple arrays into one. 
+
