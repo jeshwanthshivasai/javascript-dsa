@@ -103,5 +103,12 @@ let userData = {
 
 // To display the songs in the UI (User Interface), you'll need to create a function.
 const renderSongs = (array) => {
-    const songsHTML = array.map();
+    // The map() method is used to iterate through an array and return a new array.
+    // It's helpful when you want to create a new array based on the values of an existing array.
+    //Notice that the map() method takes a function as an argument.
+    //This is called a callback function, which is a function that is passed to another function as an argument. 
+    //The map() method then returns a new array with the results.
+    const songsHTML = array.map((song) => {
+
+    });
 };
