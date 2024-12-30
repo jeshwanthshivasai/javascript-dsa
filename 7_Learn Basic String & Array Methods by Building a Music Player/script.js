@@ -103,5 +103,5 @@ let userData = {
 
 // To display the songs in the UI (User Interface), you'll need to create a function.
 const renderSongs = (array) => {
-
+    const songsHTML = array.map();
 };
