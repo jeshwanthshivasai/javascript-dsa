@@ -109,6 +109,8 @@ const renderSongs = (array) => {
     //This is called a callback function, which is a function that is passed to another function as an argument. 
     //The map() method then returns a new array with the results.
     const songsHTML = array.map((song) => {
-
+        return `
+        <li id="song-${song.id}" class="playlist-song"></li>
+        `;
     });
 };
