@@ -60,7 +60,23 @@ function showResults(userOption) {
     resetGameBtn.style.display = "block"
     optionsContainer.style.display = "none"
   }
-}
+};
+
+
+function resetGame() {
+  playerScore = 0;
+  computerScore = 0;
+  
+  winnerMsgElement.innerText = "";
+  roundResultsMessage.innerText = "";
+
+  playerScoreSpanElement.innerText = playerScore;
+  computerScoreSpanElement.innerText = computerScore;
+
+  resetGameBtn.style.display = 'none';
+  optionsContainer.style.display = 'block';
+};
+
 
 const rockBtn = document.getElementById("rock-btn");
 const paperBtn = document.getElementById("paper-btn");
