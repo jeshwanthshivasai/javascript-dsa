@@ -111,5 +111,13 @@ const printGreeting = () => {
 // To call a named arrow function expression, you can reference the function by its name.
 printGreeting();
 
+// Just like regular functions, arrow functions can accept multiple parameters.
+// If the function only has one parameter, you can omit the parentheses.
+//Ofcourse I didn't do that here 🤓
+const printMessage = (org) => {
+    console.log(`${org} is awesome!`);
+}
+printMessage("freeCodeCamp");
+
 
 
