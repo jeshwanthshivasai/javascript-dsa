@@ -100,3 +100,8 @@ let userData = {
     currentSong: null,
     songCurrentTime: 0
 };
+
+// To display the songs in the UI (User Interface), you'll need to create a function.
+const renderSongs = (array) => {
+
+};
