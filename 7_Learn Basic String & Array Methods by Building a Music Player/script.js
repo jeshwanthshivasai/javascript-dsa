@@ -88,7 +88,7 @@ const audio = new Audio();
 
 //To keep track of the songs, the current song playing, and the time of the current song.
 let userData = {
-    
+
     // Since users will be able to shuffle and delete songs from the playlist.
     // You will need to create a copy of the allSongs array without mutating the original.
     // This is where the spread operator (...) comes in handy.
@@ -100,6 +100,14 @@ let userData = {
     currentSong: null,
     songCurrentTime: 0
 };
+
+// An arrow function is an anonymous function expression and a shorter way to write functions.
+// Anonymous means that the function does not have a name.
+// Arrow functions are always anonymous.
+// To create a named arrow function, you can assign the function to a variable
+const printGreeting = () => {
+    console.log("Hello there!");
+}
 
 
 
