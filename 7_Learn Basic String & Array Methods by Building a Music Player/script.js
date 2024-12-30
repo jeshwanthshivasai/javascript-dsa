@@ -108,6 +108,8 @@ let userData = {
 const printGreeting = () => {
     console.log("Hello there!");
 }
+// To call a named arrow function expression, you can reference the function by its name.
+printGreeting();
 
 
 
