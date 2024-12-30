@@ -100,36 +100,3 @@ let userData = {
     currentSong: null,
     songCurrentTime: 0
 };
-
-// An arrow function is an anonymous function expression and a shorter way to write functions.
-// Anonymous means that the function does not have a name.
-// Arrow functions are always anonymous.
-// To create a named arrow function, you can assign the function to a variable
-const printGreeting = () => {
-    console.log("Hello there!");
-}
-// To call a named arrow function expression, you can reference the function by its name.
-printGreeting();
-
-// Just like regular functions, arrow functions can accept multiple parameters.
-// If the function only has one parameter, you can omit the parentheses.
-//Ofcourse I didn't do that here 🤓
-const printMessage = (org) => {
-    console.log(`${org} is awesome!`);
-}
-printMessage("freeCodeCamp");
-
-// If the arrow function is returning a simple expression.
-// You can omit the return keyword and the curly braces {}.
-// This is called an implicit return.
-const addTwoNumbers = (num1, num2) => num1 + num2
-
-// If your arrow function has multiple lines of code in the function body.
-// Then you need to use the return keyword and the curly braces {}
-const addTwoNumbers = (num1, num2) => {
-    return num1 + num2;
-}
-console.log(addTwoNumbers(3, 4));
-
-
-
