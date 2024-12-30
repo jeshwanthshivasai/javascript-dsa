@@ -85,3 +85,6 @@ const allSongs = [
 
 // This will create a new HTML5 audio element.
 const audio = new Audio();
+
+//To keep track of the songs, the current song playing, and the time of the current song.
+let userData = {};
